@@ -1,0 +1,71 @@
+/*=Custom
+-----------------------------------------------------------*/
+$color-neutral-lt: #fff;
+$shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+
+
+body {
+  width: 100%;
+  margin: 0 auto
+}
+
+a {
+  color: #EB705D;
+   text-decoration: none;
+  font-weight: 1000
+}
+a:hover {
+  color: #777
+}
+
+/* Header */
+.site-header{
+  padding: 10px 50px
+}
+
+.site-header .container-fluid{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.site-header .container-fluid .navbar-brand {
+  font-size: 1.5rem
+}
+
+#navbarMain ul{
+list-style: none;
+ display: flex;
+ gap: 3rem
+}
+
+/* Content */
+
+.container{
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr );
+  grid-template-rows: repeat( 2, 1fr );
+}
+
+.container .post{
+  background: #fbfbfb;
+  border: 2px dotted #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px
+}
+
+/* footer */
+
+.footer .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer .container .nav-footer-wrap ul{
+ list-style: none;
+ display: flex;
+ gap: 2rem
+}
